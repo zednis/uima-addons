@@ -398,9 +398,11 @@
 		</configurationParameterSettings>
 		<typeSystemDescription>
 			<imports>
-				<import name="org.apache.uima.conceptMapper.DictTerm" />
-				<import
-					name="org.apache.uima.conceptMapper.support.tokenizer.TokenAnnotation" />
+				<!--<import name="org.apache.uima.conceptMapper.DictTerm" />-->
+				<!--<import-->
+					<!--name="org.apache.uima.conceptMapper.support.tokenizer.TokenAnnotation" />-->
+				<import location="DictTerm.xml" />
+				<import location="TokenAnnotation.xml" />
 			</imports>
 			<types>
 				<typeDescription>
