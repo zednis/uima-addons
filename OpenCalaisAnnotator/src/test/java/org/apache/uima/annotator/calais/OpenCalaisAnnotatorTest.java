@@ -26,6 +26,7 @@ import org.apache.uima.cas.CASException;
 import org.apache.uima.cas.Type;
 import org.apache.uima.jcas.tcas.Annotation;
 import org.apache.uima.test.junit_extension.AnnotatorTester;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -37,6 +38,7 @@ public class OpenCalaisAnnotatorTest {
 
   private static final String text = "President Obama vows to \"make BP pay\" for the Gulf oil spill, and says the US must end its fossil fuel \"addiction\"";
 
+  @Ignore
   @Test
   public void integrationTest() {
     try {
